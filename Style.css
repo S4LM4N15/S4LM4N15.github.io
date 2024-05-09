@@ -1,0 +1,654 @@
+* {
+    margin: 0;
+    font-family: Poetsen One ;
+    border: border-box;
+}
+/** nav box **/
+.navbar {
+    height: 60px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 70px;
+    width: 70px;
+    margin-top: -1%;
+}
+
+.logo {
+    background-image: url("");
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border:2px solid black;
+}
+
+/** nav box2 **/
+.nav-search {
+    display: flex;
+    align-items: center;
+    background-color: #6f0c0c;
+    width: 70% ;
+    height: 50PX ;
+    border-radius: 4px;   
+    font-size: 1rem;
+    margin: auto;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 60px;
+    color: white;
+}
+
+.search-input {
+    width: 100%;
+    height: 40px;
+}
+
+/** nav box 3 **/
+.shop-icon i {
+    font-size: 30px;  
+}
+
+.shop-icon {
+    font-size: 0.95rem;
+    font-weight: 700; 
+}
+/** panel 1**/
+.panel {
+    background-color: #6f0c0c;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color:white;
+}
+
+#panel-select {
+    background-color: #6f0c0c;  
+    color: white;
+    font-size: 1rem;
+}
+
+.panel-content {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.panel-content a {
+    color: white;
+    text-decoration: none;
+}
+
+.panel-content a:hover {
+    background-color: black;
+    
+}
+
+/** hero section**/
+.hero-section {
+    background-image: url(hero-image.jpg);
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-message {
+    background-color: #6f0c0c;
+    color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: o.80rem;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.hero-message a {
+    color:rgba(217, 250, 5, 0.897);
+}
+
+/** shop-section1 **/
+
+/**BMW**/
+.bmw {
+    background-color: #6f0c0c;
+    color: white;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.bmw h2 {
+    color: white;
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(175, 170, 170);
+}
+
+.box {
+    height: 250px;
+    width: 22%; 
+    margin-top: 2rem;
+    background-color: antiquewhite;
+    padding: 20px 0px 15px;
+}
+
+.box-image {
+    height: 200px;
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: solid white;
+    font-family: 2rem;
+}
+
+.add-chat {
+   display: flex;
+   justify-content: space-evenly;
+   bottom: 2px;
+
+}
+
+/**tesla**/
+
+.tesla {
+    background-color: #6f0c0c;
+    color: white;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.tesla h2 {
+    color: white;
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(175, 170, 170);
+}
+
+.box {
+    height: 250px;
+    width: 22%; 
+    margin-top: 2rem;
+    background-color: antiquewhite;
+    padding: 20px 0px 15px;
+}
+
+.box-image {
+    height: 200px;
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: solid white;
+    font-family: 2rem;
+}
+
+.add-chat {
+   display: flex;
+   justify-content: space-evenly;
+   bottom: 2px;
+
+}
+
+/**PORSCHE**/
+
+.porsche {
+    background-color: #6f0c0c;
+    color: white;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.porsche h2 {
+    color: white;
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(175, 170, 170);
+}
+
+.box {
+    height: 250px;
+    width: 22%; 
+    margin-top: 2rem;
+    background-color: antiquewhite;
+    padding: 20px 0px 15px;
+}
+
+.box-image {
+    height: 200px;
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: solid white;
+    font-family: 2rem;
+}
+
+.add-chat {
+   display: flex;
+   justify-content: space-evenly;
+   bottom: 2px;
+
+}
+
+/**AUDI**/
+
+.audi {
+    background-color: #6f0c0c;
+    color: white;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.audi h2 {
+    color: white;
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(175, 170, 170);
+}
+
+.box {
+    height: 250px;
+    width: 22%; 
+    margin-top: 2rem;
+    background-color: antiquewhite;
+    padding: 20px 0px 15px;
+}
+
+.box-image {
+    height: 200px;
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: solid white;
+    font-family: 2rem;
+}
+
+.add-chat {
+   display: flex;
+   justify-content: space-evenly;
+   bottom: 2px;
+
+}
+
+/**ROLLS-ROYCE**/
+
+.rolls-royce {
+    background-color: #6f0c0c;
+    color: white;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.rolls-royce h2 {
+    color: white;
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(175, 170, 170);
+}
+
+.box {
+    height: 250px;
+    width: 22%; 
+    margin-top: 2rem;
+    background-color: antiquewhite;
+    padding: 20px 0px 15px;
+}
+
+.box-image {
+    height: 200px;
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: solid white;
+    font-family: 2rem;
+}
+
+.add-chat {
+   display: flex;
+   justify-content: space-evenly;
+   bottom: 2px;
+
+}
+
+/**SUZUKI**/
+
+.suzuki {
+    background-color: #6f0c0c;
+    color: white;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.suzuki h2 {
+    color: white;
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(175, 170, 170);
+}
+
+.box {
+    height: 250px;
+    width: 22%; 
+    margin-top: 2rem;
+    background-color: antiquewhite;
+    padding: 20px 0px 15px;
+}
+
+.box-image {
+    height: 200px;
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: solid white;
+    font-family: 2rem;
+}
+
+.add-chat {
+   display: flex;
+   justify-content: space-evenly;
+   bottom: 2px;
+
+}
+
+/**MAZDA**/
+
+.mazda {
+    background-color: #6f0c0c;
+    color: white;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.mazda h2 {
+    color: white;
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(175, 170, 170);
+}
+
+.box {
+    height: 250px;
+    width: 22%; 
+    margin-top: 2rem;
+    background-color: antiquewhite;
+    padding: 20px 0px 15px;
+}
+
+.box-image {
+    height: 200px;
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: solid white;
+    font-family: 2rem;
+}
+
+.add-chat {
+   display: flex;
+   justify-content: space-evenly;
+   bottom: 2px;
+
+}
+
+
+/**honda**/
+
+.honda {
+    background-color: #6f0c0c;
+    color: white;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.honda h2 {
+    color: white;
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(175, 170, 170);
+}
+
+.box {
+    height: 250px;
+    width: 22%; 
+    margin-top: 2rem;
+    background-color: antiquewhite;
+    padding: 20px 0px 15px;
+}
+
+.box-image {
+    height: 200px;
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: solid white;
+    font-family: 2rem;
+}
+
+.add-chat {
+   display: flex;
+   justify-content: space-evenly;
+   bottom: 2px;
+
+}
+
+/** footer **/
+
+footer {
+    margin-top: 15px;
+}
+
+.foot-panel1 {
+    background-color: #6f0c0c;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.95rem;
+}
+
+.foot-panel1 a{
+    color: white;
+}
+.foot-panel2 {
+    background-color: #340707;
+    color: white;
+    height: 320px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ul a {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.90rem;
+    color: #dddddd;
+}
+
+ul p {
+    margin-top:20px ;
+    font-size: 1.25rem;
+}
+
+.foot-panel3 {
+    height: 50px;
+    background-color: #6f0c0c;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#language {
+    background-color: black;
+    color: white;
+    height: 30px;
+    border: 10px;
+    margin-left: 20px;
+}
+
+#Dollar {
+    background-color: black;
+    color: white;
+    height: 30px;
+    border: 10px;
+    margin-left: 20px;
+}
+
+#country {
+    background-color: black;
+    color: white;
+    height: 30px;
+    border: 10px;
+    margin-left: 20px;
+}
+
+.foot-panel4 {
+    background-color: #222020;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.foot-panel5 {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
